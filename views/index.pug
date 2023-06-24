@@ -1,0 +1,22 @@
+extends layout/main.pug
+
+block content
+	article.card
+		.card__image
+			img(width='302' height='302' src='./images/equilibrium.jpg' alt='')
+		.card__content
+			h2.card__title
+				a.btn.btn--link(href='#') Equilibrium #3429
+			p.card__desc Our Equilibrium collection promotes balance and calm.
+			ul.card__stats-list
+				li.card__stats-list-item
+					i.icon-ethereum(aria-hidden='true')
+					span 0.041 ETH
+				li.card__stats-list-item
+					i.icon-clock(aria-hidden='true')
+					span 3 days left
+			.card__author
+				img.card__author-img(width='33' height='33' src='./images/avatar.png' alt='Jules Wyvern')
+				span.card__author-desc
+					| Creation of
+					a.btn.btn--link(href='#') Jules Wyvern
