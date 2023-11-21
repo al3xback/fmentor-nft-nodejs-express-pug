@@ -2,7 +2,7 @@
 
 footer,
 footer .container {
-	@include mix.flexbox;
+	display: flex;
 }
 
 footer {
@@ -17,7 +17,7 @@ footer {
 
 footer .container,
 footer p {
-	@include mix.flex(auto);
+	flex: auto;
 }
 
 footer p {
